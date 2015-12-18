@@ -1,4 +1,4 @@
-<Limit GET HEAD PUT DELETE OPTIONS>
  Order deny,allow
  Deny from all
-<Limit>
+ Allow localhost
+ Allow from wizmaksim.github.io
